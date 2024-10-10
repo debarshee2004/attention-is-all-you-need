@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 
-"""What is Self-Attention?
+"""
+What is Self-Attention?
 SelfAttention Class: This class represents a multi-head self-attention mechanism that splits the input embedding into multiple heads, applies attention to each head, and concatenates the results.
 
 __init__ Method: 
