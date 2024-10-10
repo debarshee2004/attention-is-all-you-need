@@ -2,6 +2,9 @@
 
 This document provides a comprehensive explanation of the **Transformer** model and the **Self-Attention** mechanism, covering all critical concepts in the architecture, including how they function and their implementation in the code provided.
 
+![image](https://github.com/user-attachments/assets/507eb553-df81-48cc-9796-d0cd6a8a8512)
+
+
 **Topics covered include:**
 
 - [Transformer Model and Self-Attention: Detailed Explanation](#transformer-model-and-self-attention-detailed-explanation)
@@ -38,6 +41,9 @@ Transformers are composed of two primary components:
 - **Positional Encoding**: Since Transformers have no inherent understanding of sequence order, they use positional encodings to retain order information.
 
 ---
+
+![image](https://github.com/user-attachments/assets/7f384196-3c14-41ad-aec9-129d55f43077)
+
 
 ## 2. **Self-Attention Mechanism**
 
