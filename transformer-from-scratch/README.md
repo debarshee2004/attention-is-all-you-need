@@ -207,7 +207,8 @@ In these tasks, the encoder processes the input sequence and the decoder generat
 
 ```py
 class Transformer(nn.Module):
-    def __init__(self, src_vocab_size, trg_vocab_size, src_pad_idx, trg_pad_idx, embed_size=512, num_layers=6, forward_expansion=4, heads=8, dropout=0, device="cpu", max_length=100):
+    def __init__(self, src_vocab_size, trg_vocab_size, src_pad_idx, trg_pad_idx, embed_size=512, num_layers=6,
+                 forward_expansion=4, heads=8, dropout=0, device="cpu", max_length=100):
         super(Transformer, self).__init__()
 
         self.encoder = Encoder(src_vocab_size, embed_size, num_layers, heads, device, forward_expansion, dropout, max_length)
