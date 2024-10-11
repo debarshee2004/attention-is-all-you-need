@@ -173,3 +173,5 @@ if __name__ == "__main__":
     out = model(x, trg[:, :-1])
 
     print(out.shape)  # Output tensor shape will be (N, trg_len, trg_vocab_size)
+    # OUTPUT: torch.Size([2, 7, 10])
+    # The output tensor represents the predicted next tokens in the target sequence
