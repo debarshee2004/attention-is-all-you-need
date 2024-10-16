@@ -1,4 +1,5 @@
 import torch.nn as nn
+
 from SelfAttention import SelfAttention
 
 """
@@ -22,7 +23,6 @@ Residual Connection + Normalization (2nd): Adds the original input of the feed-f
 
 This structure forms a core building block of Transformer models like BERT and GPT, enabling them to capture complex dependencies in the input sequence.
 """
-
 
 class TransformerBlock(nn.Module):
     """
