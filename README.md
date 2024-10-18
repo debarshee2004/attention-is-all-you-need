@@ -9,4 +9,4 @@ The main goal of this project is to recreate the core ideas of the Transformer m
 **Reference**: 
 
 Original Paper: [Attention is All You Need](https://arxiv.org/abs/1706.03762) <br/>
-Learning Video: [Pytorch Transformers from Scratch (Attention is all you need) by Aladdin Persson](https://youtu.be/U0s0f995w14?si=iYcQ2TGNExwH9DQT)
+Learning Video: [Pytorch Transformers from Scratch (Attention is all you need) by Aladdin Persson](https://www.youtube.com/watch?v=U0s0f995w14)
